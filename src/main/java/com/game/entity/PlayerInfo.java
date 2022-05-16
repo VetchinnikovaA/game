@@ -12,14 +12,6 @@ public class PlayerInfo {
 
     private Race race;
 
-    public void setRace(Race race) {
-        this.race = race;
-    }
-
-    public void setProfession(Profession profession) {
-        this.profession = profession;
-    }
-
     private Profession profession;
 
     private Long birthday;
@@ -31,6 +23,14 @@ public class PlayerInfo {
     private Integer level;
 
     private Integer untilNextLevel;
+
+    public void setRace(Race race) {
+        this.race = race;
+    }
+
+    public void setProfession(Profession profession) {
+        this.profession = profession;
+    }
 
     public Long getId() {
         return id;
